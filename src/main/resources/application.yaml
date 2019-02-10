@@ -13,7 +13,7 @@ spring:
 
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:6603}/${MYSQL_DATABASE:springjpa}?allowPublicKeyRetrieval=true&reconnect=true&verifyServerCertificate=false&useSSL=false
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${MYSQL_DATABASE:springjpa}?allowPublicKeyRetrieval=true&reconnect=true&verifyServerCertificate=false&useSSL=false
     username: ${MYSQL_USER:root}
     password: ${MYSQL_PASS:mysql}
 
